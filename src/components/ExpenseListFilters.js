@@ -5,7 +5,7 @@ import {searchExpense,sortByAmount,sortByDate,setStartDate,setEndDate} from '../
 
 class ExpenseListFilters extends React.Component{
     state={
-        calenderFocused:false
+        calenderFocused:null
     }
 
     onDatesChange=({startDate,endDate})=>{
